@@ -1,0 +1,14 @@
+{
+  "name": "photo_album_app",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "load_albums.js"
+  },
+  "dependencies": {
+    "async": "^2.6.0",
+    "curl": "^0.1.4",
+    "mysql": "^2.15.0",
+    "url": "^0.11.0"
+  },
+  "private": true
+}

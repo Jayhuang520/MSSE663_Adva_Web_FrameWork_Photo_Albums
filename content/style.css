@@ -1,0 +1,13 @@
+
+div#photos div.photo
+{
+  float: right;
+  padding-: 5px;
+  margin: 50px;
+}
+
+body {
+  background-color: #1885be;
+  font-family: "Source Code Pro", sans-serif;
+  font-size: xx-large;
+}

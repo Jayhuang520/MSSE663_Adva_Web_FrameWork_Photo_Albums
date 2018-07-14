@@ -1,0 +1,6 @@
+Go to your terminal:
+Type:
+node photo_album_server.js
+
+In a different terminal:
+run the curl command.
