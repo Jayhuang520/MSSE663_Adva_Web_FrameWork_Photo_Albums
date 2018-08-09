@@ -1,14 +1,19 @@
 {
-  "name": "photo_album_app",
-  "version": "0.0.1",
-  "scripts": {
-    "start": "load_albums.js"
-  },
-  "dependencies": {
-    "async": "^2.6.0",
-    "curl": "^0.1.4",
-    "mysql": "^2.15.0",
-    "url": "^0.11.0"
-  },
-  "private": true
+    "name": "Photo-Sharing",
+    "description": "Our Photo Sharing Application with static middleware",
+    "version": "0.0.2",
+    "private": true,
+    "dependencies": {
+        "body-parser": "1.x",
+        "express": "4.x",
+        "express-flash": "0.x",
+        "cookie-parser": "1.x",
+        "express-session": "1.x",
+        "async": "2.x",
+        "mongodb": "2.x",
+        "morgan": "1.x",
+        "passport": "0.3.x",
+        "passport-local": "1.x",
+        "multer": "1.x"
+    }
 }

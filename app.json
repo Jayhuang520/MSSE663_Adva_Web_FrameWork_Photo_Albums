@@ -1,0 +1,5 @@
+{
+  "name": "Photo Album",
+  "description": "A photo album web application",
+  "keywords": ["node", "express", "static"]
+}

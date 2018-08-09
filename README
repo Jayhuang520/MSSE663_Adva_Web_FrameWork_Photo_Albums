@@ -1,6 +1,14 @@
-Go to your terminal:
-Type:
-node photo_album_server.js
+In one terminal:
+Run the server.js
+npm update
+node server.js
 
-In a different terminal:
-run the curl command.
+In another terminal:
+Run the curl command:
+curl -X GET http://localhost:8080/albums.json
+curl -X GET http://localhost:8080/albums/sky.json?page=1page_size=20
+curl -X POST -d "{\"album_name\":\"notSky\"}" http://localhost:8080/albums/sky/rename.json -H "Content-Type:application/json"
+curl -X POST -d "{\"album_name\":\"Sky\"}" http://localhost:8080/albums/notSky/rename.json -H "Content-Type:application/json"
+curl -i -X GET http://localhost:8080/templates/home.html
+curl -o test.jpg http://localhost:8080/content/scenery.jpg
+curl -i -X GET http://localhost:8080/pages/home

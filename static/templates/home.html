@@ -1,0 +1,31 @@
+<form action="/pages/login">
+  <button style="background: none; border: none;" type="submit"><img width="25px" height="25px" src="../content/key.jpg">  Login</button>
+</form>
+<form action="/pages/secret">
+  <button style="background: none; border: none;" type="submit"><img width="25px" height="25px" src="../content/secret.jpg">  Secret Page</button>
+</form>
+<div id="album_list">
+  <h1 name="myTitle" id="myTitle">Photo Album</h1>
+  <h5>By: Jay Huang</h5>
+  <p> There are {{ albums.length }} albums.</p>
+  <!--<form name='renameForm' method='post' action="/pages/home">-->
+  <!--OldName: <input id='oldName' name='oldName' type='text'/><br/>-->
+  <!--NewName: <input id='newName' name='newName' type='text'/><br/>-->
+  <!--<button id="renameButton" type='submit'>Rename Title</button>-->
+  <!--</form>-->
+  <div>
+    <a href='/pages/admin/add_album'><button class="addButton">Add Album</button></a>
+    <br>
+    <a href='/pages/admin/add_photos'><button class="addButton">Add Photo</button></a>
+  </div>
+  <ul id="albums">
+    {{#albums}}
+    <li class="album">
+      <a href='http://localhost:8080/pages/album/{{name}}'>{{name}}</a>
+    </li>
+    {{/albums}}
+    {{^albums}}
+    <li> Sorry, there are currently no albums</li>
+    {{/albums}}
+  </ul>
+</div>
