@@ -1,127 +1,167 @@
 
 var express = require('express'),
-    bodyParser = require('body-parser'),
-    morgan = require('morgan'),
-    passport = require("passport"),
-    session = require('express-session'),
     cookieParser = require('cookie-parser'),
+    session = require('express-session'),
+    passport = require("passport"),
     LocalStrategy = require('passport-local').Strategy,
+    bodyParser = require('body-parser'),
     flash = require('express-flash'),
+    morgan = require('morgan'),
     multer = require('multer');
 
 var db = require('./data/db.js'),
     album_hdlr = require('./handlers/albums.js'),
     page_hdlr = require('./handlers/pages.js'),
-    rename_hdler = require('./handlers/rename'),
+    user_hdlr = require('./handlers/users.js'),
     helpers = require('./handlers/helpers.js');
 
 var app = express();
+app.use(express.static(__dirname + "/static/"));
 
 var session_configuration = {
-    secret: 'Secret Photo Albums',
-    resave: false,
+    secret: '0GBlJZ9EKBt2Zbi2flRPvztczCewBabc',
+    resave: true,
     saveUninitialized: true,
-    cookie: {secure: true}
+    cookie: { httpOnly: true }
 };
+
+session_configuration.cookie.secure = false;
 
 app.use(flash());
 app.use(session(session_configuration));
-app.use(cookieParser('Secret Photo Albums'));
-app.use(express.static(__dirname + "/../static"));
-app.use(morgan('dev'));
+app.use(cookieParser('0GBlJZ9EKBt2Zbi2flRPvztczCewBabc'));
 app.use(passport.initialize());
 app.use(passport.session());
+
+app.use(morgan('dev'));
+
 // Parse application/x-www-form-urlencoded & JSON
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
 var upload = multer({ dest: "uploads/" });
 
-app.get('/v1/albums.json', album_hdlr.list_all);
-app.put('/v1/albums.json', album_hdlr.create_album);
+/**
+ * Passport authentication methods.
+ */
+function alwaysAuthenticated(req, res, next) {
+    if (req.isAuthenticated()) {
+        next();
+    } else {
+        res.redirect("/pages/login");
+    }
+}
+
+function pageAuthenticatedOrNot(req, res, next) {
+    if ((req.params && req.params.page_name == 'admin')) {
+        if (req.isAuthenticated()) {
+            next();
+        } else {
+            res.redirect("/pages/login");
+        }
+    } else if (req.params && req.params.page_name == "register") {
+        if (req.isAuthenticated()) {
+            req.logout();
+        }
+        next();
+    } else {
+        next();
+    }
+}
+
+function verifyLoggedOut(req, res, next) {
+    if (req.user) {
+        req.logout();
+    }
+    next();
+}
+
+passport.use(new LocalStrategy(
+    function(username, password, done) {
+        user_hdlr.authenticate_user(username, password, (err, user) => {
+            if (err && err.code == "invalid_credentials") {
+                return done(null, false, {
+                    message: 'Incorrect credentials.'
+                });
+            } else if (err) {
+                return done(null, false, {
+                    message: `Error while authenticating (\(err.code\))`
+                });
+            } else {
+                return done(null, user);
+            }
+        });
+    }
+));
+
+passport.serializeUser(function(user, done) {
+    done(null, user.uuid);
+});
+
+passport.deserializeUser(function(userid, done) {
+    user_hdlr.user_by_uuid(userid, (err, user) => {
+        if (err) {
+            done(err, null);
+        } else {
+            done(null, user);
+        }
+    });
+});
+
+/**
+ * API Server requests.
+ */
+app.get('/v1/albums.json', function (req, res, next) {
+    console.log("I AM HERE!!!!");
+    next();
+},  album_hdlr.list_all);
+app.put('/v1/albums.json', alwaysAuthenticated, album_hdlr.create_album);
 app.get('/v1/albums/:album_name.json', album_hdlr.album_by_name);
 app.get('/v1/albums/:album_name/photos.json', album_hdlr.photos_for_album);
 app.put('/v1/albums/:album_name/photos.json',
+    alwaysAuthenticated,
     upload.single("photo_file"),
     album_hdlr.add_photo_to_album);
 
-app.get('/pages/:page_name', page_hdlr.generate);
-app.get('/pages/:page_name/:sub_page', page_hdlr.generate);
+app.put('/v1/users.json', user_hdlr.register);
 
-app.get('/', function (req, res) {
+app.get('/pages/:page_name', pageAuthenticatedOrNot, page_hdlr.generate);
+app.get('/pages/:page_name/:sub_page',
+    pageAuthenticatedOrNot,
+    page_hdlr.generate);
+
+app.post("/service/login",
+    passport.authenticate('local', {
+        failureRedirect: '/pages/login?fail',
+    }),
+    function (req, res) {
+        // We want pages to have access to this.
+        res.cookie("username", req.user.display_name);
+        res.redirect("/pages/home");
+    }
+);
+
+app.get('/service/logout', function(req, res){
+    res.cookie("username", "");
+    req.logout();
+    res.redirect('/');
+});
+
+
+app.get("/", function (req, res) {
     res.redirect("/pages/login");
     res.end();
 });
 
 app.get('*', four_oh_four);
 
-app.post('/pages/login',
-    passport.authenticate('local', {
-        successRedirect: '/pages/home',
-        failureRedirect: '/pages/login',
-        successFlash: {message: "welcome back"},
-        failureFlash: true
-    })
-);
-
-// app.post('/pages/home', function (req, res) {
-//     rename_hdler.renameAlbum(req, res);
-// });
-
 function four_oh_four(req, res) {
     res.writeHead(404, { "Content-Type" : "application/json" });
     res.end(JSON.stringify(helpers.invalid_resource()) + "\n");
 }
 
-var users = {
-    "id123456": {id: 123456, username: "jay", password: "huang"},
-    "id1": {id: 1, username: "root", password: "admin"}
-};
 
-passport.use(new LocalStrategy(
-    function (username, password, done) {
-        setTimeout(function () {
-            for (userId in users) {
-                var user = users[userId];
-                console.log(user);
-                if (user.username.toLowerCase() == username.toLowerCase()) {
-                    if (user.password == password) {
-                        return done(null, user);
-                    }
-                }
-            }
-            return done(null, false, {message: 'Incorrect credentials.'});
-        }, 1000);
-    }
-));
+var port = process.env.PORT || 5000;
 
-passport.serializeUser(function (user, done) {
-    if (users["id" + user.id]) {
-        done(null, "id" + user.id);
-    } else {
-        done(new Error("WAT"));
-    }
-});
-
-passport.deserializeUser(function (userId, done) {
-    if (users[userId]) {
-        done(null, users[userId]);
-    } else {
-        done(new Error("CANTFINDUSER"));
-    }
-});
-
-/**
- * Initialise the server and start listening when we're ready!
- */
-db.init( function (err, results) {
-    if (err) {
-        console.error("** FATAL ERROR ON STARTUP: ");
-        console.error(err);
-        process.exit(-1);
-    }
-
-    console.log("** Database initialised, listening on port 8080");
-    app.listen(8080);
-});
-
+db.init();
+app.listen(port);

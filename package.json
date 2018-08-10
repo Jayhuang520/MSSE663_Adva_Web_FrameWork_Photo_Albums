@@ -13,7 +13,7 @@
         "express-session": "1.x",
         "morgan": "1.x",
         "multer": "1.x",
-        "mysql": "2.x",
+        "mysql": "^2.16.0",
         "node-gyp": "^3.8.0",
         "node-uuid": "1.x",
         "passport": "0.3.x",

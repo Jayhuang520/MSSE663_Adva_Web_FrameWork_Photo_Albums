@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d043599c-576d-4293-ac2c-0fa1799f162d" name="Default" comment="" />
+    <list default="true" id="d043599c-576d-4293-ac2c-0fa1799f162d" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/handlers/users.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/content/register.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handlers/albums.js" beforeDir="false" afterPath="$PROJECT_DIR$/handlers/albums.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handlers/rename.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mysql/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mysql/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/content/admin_add_photos.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/content/admin_add_photos.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/content/admin_home.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/content/album.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/content/album.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/content/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/content/home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/content/mustache.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/content/mustache.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/content/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/content/style.css" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -14,20 +29,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="mustache.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/content/mustache.js">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/static/content/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="34" column="35" lean-forward="true" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="local.config.json" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/local.config.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="4" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+            <state relative-caret-position="836">
+              <caret line="135" lean-forward="true" selection-start-line="135" selection-end-line="135" />
             </state>
           </provider>
         </entry>
@@ -37,8 +43,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -86,19 +92,13 @@
         <option value="$PROJECT_DIR$/app/handlers/pages.js" />
         <option value="$PROJECT_DIR$/app/handlers/rename.js" />
         <option value="$PROJECT_DIR$/app/package.json" />
-        <option value="$PROJECT_DIR$/static/content/style.css" />
-        <option value="$PROJECT_DIR$/static/content/secret.js" />
         <option value="$PROJECT_DIR$/static/content/login.js" />
         <option value="$PROJECT_DIR$/static/templates/home.html" />
         <option value="$PROJECT_DIR$/app/server.js" />
-        <option value="$PROJECT_DIR$/data/album.js" />
         <option value="$PROJECT_DIR$/data/backend_helpers.js" />
-        <option value="$PROJECT_DIR$/data/db.js" />
         <option value="$PROJECT_DIR$/data/user.js" />
-        <option value="$PROJECT_DIR$/handlers/helpers.js" />
         <option value="$PROJECT_DIR$/static/content/admin_add_album.js" />
         <option value="$PROJECT_DIR$/basic.html" />
-        <option value="$PROJECT_DIR$/handlers/pages.js" />
         <option value="$PROJECT_DIR$/static/content/logout.js" />
         <option value="$PROJECT_DIR$/static/templates/admin_add_photos.html" />
         <option value="$PROJECT_DIR$/static/templates/login.html" />
@@ -110,6 +110,20 @@
         <option value="$PROJECT_DIR$/node_modules/async/package.json" />
         <option value="$PROJECT_DIR$/node_modules/morgan/package.json" />
         <option value="$PROJECT_DIR$/node_modules/passport-local/package.json" />
+        <option value="$PROJECT_DIR$/data/album.js" />
+        <option value="$PROJECT_DIR$/data/db.js" />
+        <option value="$PROJECT_DIR$/handlers/albums.js" />
+        <option value="$PROJECT_DIR$/handlers/helpers.js" />
+        <option value="$PROJECT_DIR$/handlers/pages.js" />
+        <option value="$PROJECT_DIR$/handlers/users.js" />
+        <option value="$PROJECT_DIR$/server.js" />
+        <option value="$PROJECT_DIR$/static/content/admin_add_photos.js" />
+        <option value="$PROJECT_DIR$/static/content/album.js" />
+        <option value="$PROJECT_DIR$/static/content/home.js" />
+        <option value="$PROJECT_DIR$/static/content/mustache.js" />
+        <option value="$PROJECT_DIR$/static/content/register.js" />
+        <option value="$PROJECT_DIR$/static/content/secret.js" />
+        <option value="$PROJECT_DIR$/static/content/style.css" />
       </list>
     </option>
   </component>
@@ -145,6 +159,17 @@
             <path>
               <item name="Photo_Album" type="b2602c69:ProjectViewProjectNode" />
               <item name="Photo_Album" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Photo_Album" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Photo_Album" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Photo_Album" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Photo_Album" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="content" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -209,7 +234,7 @@
       <workItem from="1533780324289" duration="5546000" />
       <workItem from="1533786084880" duration="423000" />
       <workItem from="1533865703072" duration="6869000" />
-      <workItem from="1533873617772" duration="627000" />
+      <workItem from="1533873617772" duration="2099000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commited week 6 code.">
       <created>1533781482657</created>
@@ -236,7 +261,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32413000" />
+    <option name="totallyTimeSpent" value="33885000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-10" y="0" width="1936" height="1056" extended-state="0" />
@@ -247,7 +272,8 @@
       <window_info anchor="bottom" id="Messages" sideWeight="0.49947312" weight="0.32897604" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50052685" side_tool="true" weight="0.32897604" />
-      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49894625" visible="true" weight="0.32897604" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32897604" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49894625" weight="0.32897604" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32897604" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49947312" weight="0.33442265" />
@@ -259,7 +285,6 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32897604" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -321,72 +346,22 @@
     <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;node_modules/.bin/uuid.cmd&#10;#&#9;node_modules/append-field/LICENSE&#10;#&#9;node_modules/asn1/lib/ber/index.js&#10;#&#9;node_modules/asn1/lib/ber/writer.js&#10;#&#9;node_modules/async/package.json&#10;#&#9;node_modules/aws4/aws4.js&#10;#&#9;node_modules/basic-auth/package.json&#10;#&#9;node_modules/bcrypt-pbkdf/README.md&#10;#&#9;node_modules/bignumber.js/README.md&#10;#&#9;node_modules/buffer-from/package.json&#10;#&#9;node_modules/busboy/node_modules/readable-stream/lib/_stream_passthrough.js&#10;#&#9;node_modules/busboy/package.json&#10;#&#9;node_modules/connect-flash/package.json&#10;#&#9;node_modules/content-type/package.json&#10;#&#9;node_modules/core-util-is/package.json&#10;#&#9;node_modules/crc/package.json&#10;#&#9;node_modules/dashdash/package.json&#10;#&#9;node_modules/depd/package.json&#10;#&#9;node_modules/destroy/package.json&#10;#&#9;node_modules/dicer/node_modules/readable-stream/package.json&#10;#&#9;node_modules/dicer/package.json&#10;#&#9;node_modules/ecc-jsbn/package.json&#10;#&#9;node_modules/encodeurl/package.json&#10;#&#9;node_modules/escape-html/package.json&#10;#&#9;node_modules/etag/package.json&#10;#&#9;node_modules/express/node_modules/raw-body/node_modules/depd/package.json&#10;#&#9;node_modules/express/node_modules/raw-body/node_modules/setprototypeof/package.json&#10;#&#9;node_modules/express/node_modules/raw-body/package.json&#10;#&#9;node_modules/extend/.jscs.json&#10;#&#9;node_modules/extsprintf/package.json&#10;#&#9;node_modules/fast-deep-equal/package.json&#10;#&#9;node_modules/fast-json-stable-stringify/package.json&#10;#&#9;node_modules/forever-agent/package.json&#10;#&#9;node_modules/getpass/package.json&#10;#&#9;node_modules/ipaddr.js/.npmignore&#10;#&#9;node_modules/ipaddr.js/package.json&#10;#&#9;node_modules/is-typedarray/package.json&#10;#&#9;node_modules/isarray/package.json&#10;#&#9;node_modules/isstream/package.json&#10;#&#9;node_modules/json-schema-traverse/package.json&#10;#&#9;node_modules/jsprim/package.json&#10;#&#9;node_modules/lodash/package.json&#10;#&#9;node_modules/merge-descriptors/package.json&#10;#&#9;node_modules/methods/package.json&#10;#&#9;node_modules/minimist/package.json&#10;#&#9;node_modules/mkdirp/package.json&#10;#&#9;node_modules/morgan/package.json&#10;#&#9;node_modules/ms/package.json&#10;#&#9;node_modules/mysql/lib/Connection.js&#10;#&#9;node_modules/mysql/lib/protocol/constants/ssl_profiles.js&#10;#&#9;node_modules/mysql/lib/protocol/sequences/Handshake.js&#10;#&#9;node_modules/mysql/lib/protocol/sequences/Query.js&#10;#&#9;node_modules/mysql/lib/protocol/sequences/Sequence.js&#10;#&#9;node_modules/mysql/node_modules/readable-stream/lib/_stream_passthrough.js&#10;#&#9;node_modules/mysql/node_modules/readable-stream/lib/internal/streams/destroy.js&#10;#&#9;node_modules/mysql/node_modules/readable-stream/lib/internal/streams/stream-browser.js&#10;#&#9;node_modules/on-finished/package.json&#10;#&#9;node_modules/parseurl/package.json&#10;#&#9;node_modules/passport-local/package.json&#10;#&#9;node_modules/pause/package.json&#10;#&#9;node_modules/querystring/encode.js&#10;#&#9;node_modules/random-bytes/package.json&#10;#&#9;node_modules/request/package.json&#10;#&#9;node_modules/safer-buffer/LICENSE&#10;#&#9;node_modules/semver/bin/semver&#10;#&#9;node_modules/semver/semver.js&#10;#&#9;node_modules/sqlstring/HISTORY.md&#10;#&#9;node_modules/sshpk/bin/sshpk-verify&#10;#&#9;node_modules/sshpk/lib/certificate.js&#10;#&#9;node_modules/sshpk/lib/dhe.js&#10;#&#9;node_modules/sshpk/lib/ed-compat.js&#10;#&#9;node_modules/sshpk/lib/fingerprint.js&#10;#&#9;node_modules/sshpk/lib/formats/auto.js&#10;#&#9;node_modules/sshpk/lib/formats/openssh-cert.js&#10;#&#9;node_modules/sshpk/lib/formats/pem.js&#10;#&#9;node_modules/sshpk/lib/formats/x509.js&#10;#&#9;node_modules/sshpk/lib/signature.js&#10;#&#9;node_modules/sshpk/lib/utils.js&#10;#&#9;node_modules/sshpk/package.json&#10;#&#9;node_modules/statuses/package.json&#10;#&#9;node_modules/string_decoder/package.json&#10;#&#9;node_modules/tunnel-agent/package.json&#10;#&#9;node_modules/tweetnacl/package.json&#10;#&#9;node_modules/url/LICENSE&#10;#&#9;node_modules/uuid/CHANGELOG.md&#10;#&#9;node_modules/uuid/lib/v35.js&#10;#&#9;node_modules/vary/package.json&#10;#&#9;node_modules/xtend/package.json" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/package.json" />
-    <entry file="file://$PROJECT_DIR$/static/content/admin_home.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="56" lean-forward="true" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/content/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2499">
-          <caret line="147" lean-forward="true" selection-start-line="147" selection-end-line="147" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/data/backend_helpers.js" />
-    <entry file="file://$PROJECT_DIR$/app/handlers/rename.js" />
-    <entry file="file://$PROJECT_DIR$/app/local.config.json" />
-    <entry file="file://$PROJECT_DIR$/static/content/album.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-877" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/content/admin_add_photos.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/basic.html" />
     <entry file="file://$PROJECT_DIR$/static/content/key.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/handlers/pages.js" />
     <entry file="file://$PROJECT_DIR$/app/data/db.js" />
-    <entry file="file://$PROJECT_DIR$/static/content/secret.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/handlers/helpers.js" />
     <entry file="file://$PROJECT_DIR$/app/handlers/albums.js" />
     <entry file="file://$PROJECT_DIR$/app/node_modules/express/lib/application.js" />
     <entry file="file://$PROJECT_DIR$/app/data/album.js" />
     <entry file="file://$PROJECT_DIR$/app/server.js" />
-    <entry file="file://$PROJECT_DIR$/static/content/admin_add_album.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/content/logout.js" />
     <entry file="file://$PROJECT_DIR$/static/templates/admin_add_album.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-184" />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/content/login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/content/home.js">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/static/templates/admin_add_photos.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -429,23 +404,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1870">
-          <caret line="110" selection-start-line="110" selection-end-line="110" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/backend_helpers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="107" column="2" selection-start-line="107" selection-start-column="2" selection-end-line="107" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/handlers/rename.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/basic.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="158">
@@ -453,38 +411,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/db.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="29" selection-start-column="29" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/python/README.md" />
     <entry file="file://$PROJECT_DIR$/app.json">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/handlers/albums.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/handlers/helpers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1853">
-          <caret line="109" selection-start-line="109" selection-end-line="109" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/handlers/pages.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1428">
-          <caret line="84" column="2" selection-start-line="84" selection-start-column="2" selection-end-line="84" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1071" />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -493,31 +422,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="33" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/async/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-996">
           <caret line="31" column="2" selection-start-line="31" selection-start-column="2" selection-end-line="31" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/album.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="204" selection-start-line="204" selection-end-line="204" />
         </state>
       </provider>
     </entry>
@@ -540,17 +448,172 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/content/mustache.js">
+    <entry file="file://$PROJECT_DIR$/local.config.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="34" column="35" lean-forward="true" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
+        <state relative-caret-position="85">
+          <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/local.config.json">
+    <entry file="file://$PROJECT_DIR$/README">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="33" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/album.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="204" selection-start-line="204" selection-end-line="204" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/backend_helpers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="461">
+          <caret line="107" column="2" selection-start-line="107" selection-start-column="2" selection-end-line="107" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/db.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="89" column="49" lean-forward="true" selection-start-line="89" selection-start-column="49" selection-end-line="89" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/handlers/albums.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="256" selection-start-line="256" selection-end-line="256" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/handlers/helpers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="109" selection-start-line="109" selection-end-line="109" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/handlers/pages.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="84" column="2" selection-start-line="84" selection-start-column="2" selection-end-line="84" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/handlers/users.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="127" lean-forward="true" selection-start-line="127" selection-end-line="127" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/handlers/rename.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="836">
+          <caret line="167" lean-forward="true" selection-start-line="167" selection-end-line="167" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/content/admin_add_photos.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/content/admin_add_album.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/content/admin_home.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/content/album.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="836">
+          <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/content/home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/content/jquery-1.8.3.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/content/mustache.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="836">
+          <caret line="625" lean-forward="true" selection-start-line="625" selection-end-line="625" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/content/login.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="14" column="4" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/content/register.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/content/secret.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/content/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="836">
+          <caret line="135" lean-forward="true" selection-start-line="135" selection-end-line="135" />
         </state>
       </provider>
     </entry>
