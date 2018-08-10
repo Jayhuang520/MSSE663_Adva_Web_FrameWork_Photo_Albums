@@ -1,19 +1,26 @@
 {
-    "name": "Photo-Sharing",
-    "description": "Our Photo Sharing Application with static middleware",
-    "version": "0.0.2",
+    "name": "PhotoAlbum",
+    "description": "A photo album web application.",
+    "version": "0.1.0",
     "private": true,
     "dependencies": {
+        "async": "2.x",
         "body-parser": "1.x",
+        "cloudinary": "",
+        "cookie-parser": "1.x",
         "express": "4.x",
         "express-flash": "0.x",
-        "cookie-parser": "1.x",
         "express-session": "1.x",
-        "async": "2.x",
-        "mongodb": "2.x",
         "morgan": "1.x",
+        "multer": "1.x",
+        "mysql": "2.x",
+        "node-gyp": "^3.8.0",
+        "node-uuid": "1.x",
         "passport": "0.3.x",
         "passport-local": "1.x",
-        "multer": "1.x"
+        "python": "0.0.4"
+    },
+    "engines": {
+        "node": "6.x"
     }
 }

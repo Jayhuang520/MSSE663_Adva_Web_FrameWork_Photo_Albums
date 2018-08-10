@@ -1,10 +1,10 @@
 {
     "config": {
         "db_config": {
-            "host": "us-cdbr-iron-east-05.cleardb.net",
-            "user": "bb1f2bcf52b8fd",
-            "password": "26d339a7",
-            "database": "heroku_d87cfa60c65d479",
+            "host": "us-cdbr-iron-east-01.cleardb.net",
+            "user": "bf13f1473d720d",
+            "password": "bb16c9d9",
+            "database": "heroku_2f1f12f13b55235",
 
             "pooled_connections": 125,
             "idle_timeout_millis": 30000
