@@ -5,20 +5,19 @@
     "private": true,
     "dependencies": {
         "async": "2.x",
+        "bcrypt": "1.0.3",
         "body-parser": "1.x",
         "cloudinary": "",
         "cookie-parser": "1.x",
         "express": "4.x",
         "express-flash": "0.x",
         "express-session": "1.x",
+        "mysql": "2.x",
         "morgan": "1.x",
         "multer": "1.x",
-        "mysql": "^2.16.0",
-        "node-gyp": "^3.8.0",
         "node-uuid": "1.x",
         "passport": "0.3.x",
-        "passport-local": "1.x",
-        "python": "0.0.4"
+        "passport-local": "1.x"
     },
     "engines": {
         "node": "6.x"
