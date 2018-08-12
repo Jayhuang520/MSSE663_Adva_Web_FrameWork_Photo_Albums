@@ -1,10 +1,11 @@
-DROP DATABASE IF EXISTS heroku_2f1f12f13b55235;
+DROP DATABASE IF EXISTS heroku_7258ba1574a3d71;
 
-CREATE DATABASE heroku_2f1f12f13b55235
+
+CREATE DATABASE heroku_7258ba1574a3d71
     DEFAULT CHARACTER SET utf8
     DEFAULT COLLATE utf8_general_ci;
 
-USE heroku_2f1f12f13b55235;
+USE heroku_7258ba1574a3d71;
 
 
 
@@ -50,3 +51,8 @@ CREATE TABLE Users
   INDEX(user_uuid, deleted)
 )
 ENGINE = InnoDB;
+
+use heroku_7258ba1574a3d71;
+SELECT * FROM users;
+SELECT * FROM albums;
+SELECT * FROM photos;
