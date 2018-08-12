@@ -6,7 +6,7 @@ exports.verify = function (data, field_names) {
     for (var i = 0; i < field_names.length; i++) {
         if (!data[field_names[i]]) {
             throw exports.error("missing_data",
-                                field_names[i] + " not optional");
+                field_names[i] + " not optional");
         }
     }
 
@@ -48,12 +48,12 @@ exports.file_copy = function () {
 
     function copy(err) {
         var is, os;
- 
+
         if (!err && !can_overwrite) {
             return callback(backhelp.error("file_exists",
-                                           "File " + dst + " exists."));
+                "File " + dst + " exists."));
         }
- 
+
         fs.stat(src, function (err) {
             if (err) {
                 return callback(err);
@@ -66,10 +66,9 @@ exports.file_copy = function () {
             is.pipe(os);
         });
     }
-    
+
     fs.stat(dst, copy);
 };
-
 
 
 exports.valid_filename = function (fn) {
@@ -81,28 +80,29 @@ exports.valid_filename = function (fn) {
 exports.db_error = function () {
     return exports.error("server_error",
         "Something horrible has happened with our database!");
-}
+};
 
 exports.album_already_exists = function () {
     return exports.error("album_already_exists",
-                         "An album with this name already exists.");
+        "An album with this name already exists.");
 };
 
-exports.missing_data = function(field){
-    return exports.error("missing_data","You must provide: " + field);
+exports.missing_data = function (field) {
+    return exports.error("missing_data", "You must provide: " + field);
 };
 
-exports.no_such_user = function(){
+exports.no_such_user = function () {
     return exports.error("no_such_user",
-                        "The specified user does not exist");
+        "The specified user does not exist");
 };
 
-exports.user_already_registered = function() {
+
+exports.user_already_registered = function () {
     return exports.error("user_already_registered",
-                        "This user appears to exist already!");
+        "This user appears to exist already!");
 };
 
-exports.no_such_album = function(){
+exports.no_such_album = function () {
     return exports.error("no_such_album",
-                        "The specified album does not exist");
+        "The specified album does not exist");
 };

@@ -20,7 +20,7 @@ $(function(){
             $.extend(tdata, d.data);
         });
 
-        // When AJAX calls are complete parse the template 
+        // When AJAX calls are complete parse the template
         // replacing mustache tags with vars
         $(document).ajaxStop(function () {
             var renderedPage = Mustache.to_html( tmpl, tdata );
