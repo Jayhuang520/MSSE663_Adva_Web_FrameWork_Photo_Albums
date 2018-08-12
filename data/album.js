@@ -133,6 +133,8 @@ exports.add_photo = function (photo_data, filename, path_to_photo, callback) {
 
     var basepath = __dirname + '/..' + local.config.static_content + 'albums/';
 
+    console.log("Inside of the add_photo function, Jay");
+
     async.waterfall([
             // validate data
             function (cb) {

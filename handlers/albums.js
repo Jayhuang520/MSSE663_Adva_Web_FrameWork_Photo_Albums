@@ -54,11 +54,14 @@ Album.prototype.photos = function (pn, ps, callback) {
     );
 };
 Album.prototype.add_photo = function (data, filename, path, callback) {
+    console.log("")
     album_data.add_photo(data, filename, path, function (err, photo_data) {
         if (err)
             callback(err);
+            console.log("Caught an error in the add_photo method,err message is " +err);
         else {
             var p = new Photo(photo_data);
+            console.log("The photo data is "+photo_data);
             if (this.all_photos)
                 this.all_photos.push(p);
             else
