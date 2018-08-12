@@ -29,6 +29,7 @@ Album.prototype.response_obj = function () {
         description: this.description };
 };
 Album.prototype.photos = function (pn, ps, callback) {
+    console.log("Inside of the album_photo tyring to add.")
     if (this.album_photos != undefined) {
         callback(null, this.album_photos);
         return;
