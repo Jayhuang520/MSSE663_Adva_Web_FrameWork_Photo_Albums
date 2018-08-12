@@ -30,3 +30,6 @@ https://photo-album-jayhuang.herokuapp.com/ | https://git.heroku.com/photo-album
 heroku open
 heroku config
 heroku config:add DATABASE_URL = mysql://bf13f1473d720d:bb16c9d9@us-cdbr-iron-east-01.cleardb.net/heroku_2f1f12f13b55235?reconnect=true
+
+
+secret page:
