@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d043599c-576d-4293-ac2c-0fa1799f162d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/templates/admin_add_album.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/templates/admin_add_album.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/templates/admin_home.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/templates/album.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/templates/album.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/templates/home.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -21,20 +17,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/templates/login.html">
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/static/templates/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="secret.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/static/templates/secret.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+            <state relative-caret-position="136">
+              <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+              <folding>
+                <element signature="n#style#0;n#button#0;n#form#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#form#1;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -52,7 +43,6 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>image</find>
-      <find>Nghia</find>
       <find>Post</find>
       <find>bcrypt</find>
       <find>check_</find>
@@ -61,11 +51,13 @@
       <find>user</find>
       <find>authenti</find>
       <find>login</find>
+      <find>Nghia</find>
     </findStrings>
     <dirStrings>
       <dir>C:\Users\JayHu\WebstormProjects\Photo_Album\static\content</dir>
       <dir>C:\Users\JayHu\WebstormProjects\Photo_Album\data</dir>
       <dir>C:\Users\JayHu\WebstormProjects\Photo_Album</dir>
+      <dir>C:\Users\JayHu\WebstormProjects\Photo_Album\static</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -132,15 +124,15 @@
         <option value="$PROJECT_DIR$/basic.html" />
         <option value="$PROJECT_DIR$/static/content/mustache.js" />
         <option value="$PROJECT_DIR$/local.config.json" />
-        <option value="$PROJECT_DIR$/server.js" />
         <option value="$PROJECT_DIR$/static/templates/admin_home.html" />
         <option value="$PROJECT_DIR$/static/templates/album.html" />
         <option value="$PROJECT_DIR$/static/templates/admin_add_album.html" />
         <option value="$PROJECT_DIR$/static/templates/admin_add_photos.html" />
-        <option value="$PROJECT_DIR$/static/templates/home.html" />
         <option value="$PROJECT_DIR$/static/templates/login.html" />
         <option value="$PROJECT_DIR$/static/templates/register.html" />
         <option value="$PROJECT_DIR$/static/templates/secret.html" />
+        <option value="$PROJECT_DIR$/server.js" />
+        <option value="$PROJECT_DIR$/static/templates/home.html" />
       </list>
     </option>
   </component>
@@ -162,9 +154,10 @@
     <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="width" value="974" />
-    <option name="height" value="1047" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -179,17 +172,6 @@
               <item name="Photo_Album" type="b2602c69:ProjectViewProjectNode" />
               <item name="Photo_Album" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Photo_Album" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Photo_Album" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Photo_Album" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Photo_Album" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -201,7 +183,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SearchEverywhereHistoryKey" value="bcry&#9;null&#9;null&#10;login&#9;FILE&#9;file://C:/Users/JayHu/WebstormProjects/Photo_Album_Week3/static/content/login.js" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="D:/Regis/Nghia/MSSE 663 - Web Frameworks/Week 4/Nghia Tran - PhotoAlbumHeroku" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Photo_Album_Week3" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -258,7 +240,7 @@
       <workItem from="1534056948490" duration="2657000" />
       <workItem from="1534093993791" duration="3521000" />
       <workItem from="1534098368521" duration="922000" />
-      <workItem from="1534101348750" duration="944000" />
+      <workItem from="1534101348750" duration="1593000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commited week 6 code.">
       <created>1533781482657</created>
@@ -299,7 +281,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43904000" />
+    <option name="totallyTimeSpent" value="44553000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -643,10 +625,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/static/templates/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1173">
+          <caret line="69" selection-start-line="69" selection-end-line="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/templates/secret.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="116" column="26" selection-start-line="116" selection-start-column="26" selection-end-line="116" selection-end-column="26" />
+        <state relative-caret-position="348">
+          <caret line="116" column="25" lean-forward="true" selection-start-line="116" selection-start-column="25" selection-end-line="116" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -659,33 +662,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/static/templates/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="136">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
           <folding>
             <element signature="n#style#0;n#button#0;n#form#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#button#0;n#form#1;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/templates/register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1173">
-          <caret line="69" selection-start-line="69" selection-end-line="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/templates/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/templates/secret.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
         </state>
       </provider>
     </entry>
