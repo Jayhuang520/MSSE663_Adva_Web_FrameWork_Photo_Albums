@@ -114,7 +114,7 @@ passport.deserializeUser(function(userid, done) {
 app.get('/v1/albums.json', function (req, res, next) {
     console.log("I AM HERE!!!!");
     next();
-},  album_hdlr.list_all);
+},  album_hdlr.list_all);F
 app.put('/v1/albums.json', alwaysAuthenticated, album_hdlr.create_album);
 app.get('/v1/albums/:album_name.json', album_hdlr.album_by_name);
 app.get('/v1/albums/:album_name/photos.json', album_hdlr.photos_for_album);
