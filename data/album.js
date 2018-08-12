@@ -137,6 +137,7 @@ exports.add_photo = function (photo_data, filename, path_to_photo, callback) {
 
     async.waterfall([
             // validate data
+        /*
             function (cb) {
                 try {
                     backhelp.verify(photo_data,
@@ -152,8 +153,10 @@ exports.add_photo = function (photo_data, filename, path_to_photo, callback) {
                     return;
                 }
             },
+            */
 
             function (cb) {
+                console.log("Trying to upload the photo");
                 cloudinary.uploader.upload(path_to_photo, function (results) {
                     cb(null, results);
                 });
