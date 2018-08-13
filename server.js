@@ -127,7 +127,7 @@ app.put('/v1/users.json', user_hdlr.register);
 
 app.get('/pages/:page_name', pageAuthenticatedOrNot, page_hdlr.generate);
 app.get('/pages/:page_name/:sub_page',
-    pageAuthenticatedOrNot,
+    requirePageLogin,
     page_hdlr.generate);
 
 app.post("/service/login",
@@ -158,6 +158,14 @@ app.get('*', four_oh_four);
 function four_oh_four(req, res) {
     res.writeHead(404, { "Content-Type" : "application/json" });
     res.end(JSON.stringify(helpers.invalid_resource()) + "\n");
+}
+
+function requirePageLogin(req, res, next) {
+    if (req.session && req.session.logged_in) {
+        next();
+    } else {
+        res.redirect("/pages/login");
+    }
 }
 
 var port = process.env.PORT || 5000;

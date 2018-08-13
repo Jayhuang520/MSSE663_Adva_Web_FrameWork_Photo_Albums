@@ -156,7 +156,7 @@ exports.add_photo = function (photo_data, filename, path_to_photo, callback) {
             */
 
             function (cb) {
-                console.log("Trying to upload the photo");
+                console.log("Inside of the uploading photo,Jay");
                 cloudinary.uploader.upload(path_to_photo, function (results) {
                     cb(null, results);
                 });

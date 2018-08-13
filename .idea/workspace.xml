@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d043599c-576d-4293-ac2c-0fa1799f162d" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/album.js" beforeDir="false" afterPath="$PROJECT_DIR$/data/album.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -15,39 +17,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/templates/home.html">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="server.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="64" selection-start-line="13" selection-start-column="64" selection-end-line="13" selection-end-column="64" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="album.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/templates/album.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="albums.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/handlers/albums.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="60" column="12" lean-forward="true" selection-start-line="60" selection-start-column="12" selection-end-line="60" selection-end-column="89" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="album.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/data/album.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="678">
-              <caret line="158" column="56" lean-forward="true" selection-start-line="158" selection-start-column="56" selection-end-line="158" selection-end-column="56" />
+            <state relative-caret-position="170">
+              <caret line="129" column="21" selection-start-line="129" selection-start-column="21" selection-end-line="129" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -88,6 +63,7 @@
       <find>pageAuthenticatedOrNot</find>
       <find>I am</find>
       <find>jay</find>
+      <find>c</find>
     </findStrings>
     <dirStrings>
       <dir>C:\Users\JayHu\WebstormProjects\Photo_Album\static\content</dir>
@@ -169,8 +145,8 @@
         <option value="$PROJECT_DIR$/static/templates/home.html" />
         <option value="$PROJECT_DIR$/static/content/style.css" />
         <option value="$PROJECT_DIR$/handlers/albums.js" />
-        <option value="$PROJECT_DIR$/server.js" />
         <option value="$PROJECT_DIR$/data/album.js" />
+        <option value="$PROJECT_DIR$/server.js" />
       </list>
     </option>
   </component>
@@ -191,10 +167,11 @@
   <component name="PackageJsonUpdateNotifier">
     <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
-    <option name="width" value="974" />
-    <option name="height" value="1047" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -210,11 +187,6 @@
               <item name="Photo_Album" type="b2602c69:ProjectViewProjectNode" />
               <item name="Photo_Album" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Photo_Album" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Photo_Album" type="462c0819:PsiDirectoryNode" />
-              <item name="handlers" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -223,7 +195,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="SearchEverywhereHistoryKey" value="album.js&#9;FILE&#9;file://C:/Users/JayHu/WebstormProjects/Photo_Album/static/content/album.js&#10;async&#9;FILE&#9;file://C:/Users/JayHu/WebstormProjects/Photo_Album/node_modules/async/dist/async.js&#10;async.&#9;FILE&#9;file://C:/Users/JayHu/WebstormProjects/Photo_Album/node_modules/async/dist/async.js&#10;bcry&#9;null&#9;null&#10;login&#9;FILE&#9;file://C:/Users/JayHu/WebstormProjects/Photo_Album/static/content/login.js" />
+    <property name="SearchEverywhereHistoryKey" value="cloudinary&#9;null&#9;null&#10;cloudina&#9;null&#9;null&#10;api_key&#9;null&#9;null&#10;album.js&#9;FILE&#9;file://C:/Users/JayHu/WebstormProjects/Photo_Album/static/content/album.js&#10;async&#9;FILE&#9;file://C:/Users/JayHu/WebstormProjects/Photo_Album/node_modules/async/dist/async.js&#10;async.&#9;FILE&#9;file://C:/Users/JayHu/WebstormProjects/Photo_Album/node_modules/async/dist/async.js&#10;bcry&#9;null&#9;null&#10;login&#9;FILE&#9;file://C:/Users/JayHu/WebstormProjects/Photo_Album/static/content/login.js" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -288,7 +260,9 @@
       <workItem from="1534105705340" duration="8000" />
       <workItem from="1534105820374" duration="3000" />
       <workItem from="1534105864438" duration="771000" />
-      <workItem from="1534107538729" duration="5461000" />
+      <workItem from="1534107538729" duration="7932000" />
+      <workItem from="1534118547723" duration="419000" />
+      <workItem from="1534118983599" duration="113000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commited week 6 code.">
       <created>1533781482657</created>
@@ -336,21 +310,20 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53214000" />
+    <option name="totallyTimeSpent" value="56217000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.3621795" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17650159" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50052685" side_tool="true" weight="0.32897604" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32897604" />
       <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49894625" weight="0.32897604" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32897604" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49947312" weight="0.33773378" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49947312" visible="true" weight="0.18845315" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -360,6 +333,7 @@
       <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.49947312" weight="0.32897604" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32897604" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -404,12 +378,12 @@
     <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;node_modules/.bin/uuid.cmd&#10;#&#9;node_modules/append-field/LICENSE&#10;#&#9;node_modules/asn1/lib/ber/index.js&#10;#&#9;node_modules/asn1/lib/ber/writer.js&#10;#&#9;node_modules/async/package.json&#10;#&#9;node_modules/aws4/aws4.js&#10;#&#9;node_modules/basic-auth/package.json&#10;#&#9;node_modules/bcrypt-pbkdf/README.md&#10;#&#9;node_modules/bignumber.js/README.md&#10;#&#9;node_modules/buffer-from/package.json&#10;#&#9;node_modules/busboy/node_modules/readable-stream/lib/_stream_passthrough.js&#10;#&#9;node_modules/busboy/package.json&#10;#&#9;node_modules/connect-flash/package.json&#10;#&#9;node_modules/content-type/package.json&#10;#&#9;node_modules/core-util-is/package.json&#10;#&#9;node_modules/crc/package.json&#10;#&#9;node_modules/dashdash/package.json&#10;#&#9;node_modules/depd/package.json&#10;#&#9;node_modules/destroy/package.json&#10;#&#9;node_modules/dicer/node_modules/readable-stream/package.json&#10;#&#9;node_modules/dicer/package.json&#10;#&#9;node_modules/ecc-jsbn/package.json&#10;#&#9;node_modules/encodeurl/package.json&#10;#&#9;node_modules/escape-html/package.json&#10;#&#9;node_modules/etag/package.json&#10;#&#9;node_modules/express/node_modules/raw-body/node_modules/depd/package.json&#10;#&#9;node_modules/express/node_modules/raw-body/node_modules/setprototypeof/package.json&#10;#&#9;node_modules/express/node_modules/raw-body/package.json&#10;#&#9;node_modules/extend/.jscs.json&#10;#&#9;node_modules/extsprintf/package.json&#10;#&#9;node_modules/fast-deep-equal/package.json&#10;#&#9;node_modules/fast-json-stable-stringify/package.json&#10;#&#9;node_modules/forever-agent/package.json&#10;#&#9;node_modules/getpass/package.json&#10;#&#9;node_modules/ipaddr.js/.npmignore&#10;#&#9;node_modules/ipaddr.js/package.json&#10;#&#9;node_modules/is-typedarray/package.json&#10;#&#9;node_modules/isarray/package.json&#10;#&#9;node_modules/isstream/package.json&#10;#&#9;node_modules/json-schema-traverse/package.json&#10;#&#9;node_modules/jsprim/package.json&#10;#&#9;node_modules/lodash/package.json&#10;#&#9;node_modules/merge-descriptors/package.json&#10;#&#9;node_modules/methods/package.json&#10;#&#9;node_modules/minimist/package.json&#10;#&#9;node_modules/mkdirp/package.json&#10;#&#9;node_modules/morgan/package.json&#10;#&#9;node_modules/ms/package.json&#10;#&#9;node_modules/mysql/lib/Connection.js&#10;#&#9;node_modules/mysql/lib/protocol/constants/ssl_profiles.js&#10;#&#9;node_modules/mysql/lib/protocol/sequences/Handshake.js&#10;#&#9;node_modules/mysql/lib/protocol/sequences/Query.js&#10;#&#9;node_modules/mysql/lib/protocol/sequences/Sequence.js&#10;#&#9;node_modules/mysql/node_modules/readable-stream/lib/_stream_passthrough.js&#10;#&#9;node_modules/mysql/node_modules/readable-stream/lib/internal/streams/destroy.js&#10;#&#9;node_modules/mysql/node_modules/readable-stream/lib/internal/streams/stream-browser.js&#10;#&#9;node_modules/on-finished/package.json&#10;#&#9;node_modules/parseurl/package.json&#10;#&#9;node_modules/passport-local/package.json&#10;#&#9;node_modules/pause/package.json&#10;#&#9;node_modules/querystring/encode.js&#10;#&#9;node_modules/random-bytes/package.json&#10;#&#9;node_modules/request/package.json&#10;#&#9;node_modules/safer-buffer/LICENSE&#10;#&#9;node_modules/semver/bin/semver&#10;#&#9;node_modules/semver/semver.js&#10;#&#9;node_modules/sqlstring/HISTORY.md&#10;#&#9;node_modules/sshpk/bin/sshpk-verify&#10;#&#9;node_modules/sshpk/lib/certificate.js&#10;#&#9;node_modules/sshpk/lib/dhe.js&#10;#&#9;node_modules/sshpk/lib/ed-compat.js&#10;#&#9;node_modules/sshpk/lib/fingerprint.js&#10;#&#9;node_modules/sshpk/lib/formats/auto.js&#10;#&#9;node_modules/sshpk/lib/formats/openssh-cert.js&#10;#&#9;node_modules/sshpk/lib/formats/pem.js&#10;#&#9;node_modules/sshpk/lib/formats/x509.js&#10;#&#9;node_modules/sshpk/lib/signature.js&#10;#&#9;node_modules/sshpk/lib/utils.js&#10;#&#9;node_modules/sshpk/package.json&#10;#&#9;node_modules/statuses/package.json&#10;#&#9;node_modules/string_decoder/package.json&#10;#&#9;node_modules/tunnel-agent/package.json&#10;#&#9;node_modules/tweetnacl/package.json&#10;#&#9;node_modules/url/LICENSE&#10;#&#9;node_modules/uuid/CHANGELOG.md&#10;#&#9;node_modules/uuid/lib/v35.js&#10;#&#9;node_modules/vary/package.json&#10;#&#9;node_modules/xtend/package.json" />
     <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;node_modules/.bin/uuid.cmd&#10;#&#9;node_modules/append-field/LICENSE&#10;#&#9;node_modules/asn1/lib/ber/index.js&#10;#&#9;node_modules/asn1/lib/ber/writer.js&#10;#&#9;node_modules/async/package.json&#10;#&#9;node_modules/aws4/aws4.js&#10;#&#9;node_modules/basic-auth/package.json&#10;#&#9;node_modules/bcrypt-pbkdf/README.md&#10;#&#9;node_modules/bignumber.js/README.md&#10;#&#9;node_modules/buffer-from/package.json&#10;#&#9;node_modules/busboy/node_modules/readable-stream/lib/_stream_passthrough.js&#10;#&#9;node_modules/busboy/package.json&#10;#&#9;node_modules/connect-flash/package.json&#10;#&#9;node_modules/content-type/package.json&#10;#&#9;node_modules/core-util-is/package.json&#10;#&#9;node_modules/crc/package.json&#10;#&#9;node_modules/dashdash/package.json&#10;#&#9;node_modules/depd/package.json&#10;#&#9;node_modules/destroy/package.json&#10;#&#9;node_modules/dicer/node_modules/readable-stream/package.json&#10;#&#9;node_modules/dicer/package.json&#10;#&#9;node_modules/ecc-jsbn/package.json&#10;#&#9;node_modules/encodeurl/package.json&#10;#&#9;node_modules/escape-html/package.json&#10;#&#9;node_modules/etag/package.json&#10;#&#9;node_modules/express/node_modules/raw-body/node_modules/depd/package.json&#10;#&#9;node_modules/express/node_modules/raw-body/node_modules/setprototypeof/package.json&#10;#&#9;node_modules/express/node_modules/raw-body/package.json&#10;#&#9;node_modules/extend/.jscs.json&#10;#&#9;node_modules/extsprintf/package.json&#10;#&#9;node_modules/fast-deep-equal/package.json&#10;#&#9;node_modules/fast-json-stable-stringify/package.json&#10;#&#9;node_modules/forever-agent/package.json&#10;#&#9;node_modules/getpass/package.json&#10;#&#9;node_modules/ipaddr.js/.npmignore&#10;#&#9;node_modules/ipaddr.js/package.json&#10;#&#9;node_modules/is-typedarray/package.json&#10;#&#9;node_modules/isarray/package.json&#10;#&#9;node_modules/isstream/package.json&#10;#&#9;node_modules/json-schema-traverse/package.json&#10;#&#9;node_modules/jsprim/package.json&#10;#&#9;node_modules/lodash/package.json&#10;#&#9;node_modules/merge-descriptors/package.json&#10;#&#9;node_modules/methods/package.json&#10;#&#9;node_modules/minimist/package.json&#10;#&#9;node_modules/mkdirp/package.json&#10;#&#9;node_modules/morgan/package.json&#10;#&#9;node_modules/ms/package.json&#10;#&#9;node_modules/mysql/lib/Connection.js&#10;#&#9;node_modules/mysql/lib/protocol/constants/ssl_profiles.js&#10;#&#9;node_modules/mysql/lib/protocol/sequences/Handshake.js&#10;#&#9;node_modules/mysql/lib/protocol/sequences/Query.js&#10;#&#9;node_modules/mysql/lib/protocol/sequences/Sequence.js&#10;#&#9;node_modules/mysql/node_modules/readable-stream/lib/_stream_passthrough.js&#10;#&#9;node_modules/mysql/node_modules/readable-stream/lib/internal/streams/destroy.js&#10;#&#9;node_modules/mysql/node_modules/readable-stream/lib/internal/streams/stream-browser.js&#10;#&#9;node_modules/on-finished/package.json&#10;#&#9;node_modules/parseurl/package.json&#10;#&#9;node_modules/passport-local/package.json&#10;#&#9;node_modules/pause/package.json&#10;#&#9;node_modules/querystring/encode.js&#10;#&#9;node_modules/random-bytes/package.json&#10;#&#9;node_modules/request/package.json&#10;#&#9;node_modules/safer-buffer/LICENSE&#10;#&#9;node_modules/semver/bin/semver&#10;#&#9;node_modules/semver/semver.js&#10;#&#9;node_modules/sqlstring/HISTORY.md&#10;#&#9;node_modules/sshpk/bin/sshpk-verify&#10;#&#9;node_modules/sshpk/lib/certificate.js&#10;#&#9;node_modules/sshpk/lib/dhe.js&#10;#&#9;node_modules/sshpk/lib/ed-compat.js&#10;#&#9;node_modules/sshpk/lib/fingerprint.js&#10;#&#9;node_modules/sshpk/lib/formats/auto.js&#10;#&#9;node_modules/sshpk/lib/formats/openssh-cert.js&#10;#&#9;node_modules/sshpk/lib/formats/pem.js&#10;#&#9;node_modules/sshpk/lib/formats/x509.js&#10;#&#9;node_modules/sshpk/lib/signature.js&#10;#&#9;node_modules/sshpk/lib/utils.js&#10;#&#9;node_modules/sshpk/package.json&#10;#&#9;node_modules/statuses/package.json&#10;#&#9;node_modules/string_decoder/package.json&#10;#&#9;node_modules/tunnel-agent/package.json&#10;#&#9;node_modules/tweetnacl/package.json&#10;#&#9;node_modules/url/LICENSE&#10;#&#9;node_modules/uuid/CHANGELOG.md&#10;#&#9;node_modules/uuid/lib/v35.js&#10;#&#9;node_modules/vary/package.json&#10;#&#9;node_modules/xtend/package.json" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/node_modules/passport/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-714" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/passport-local/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-163">
@@ -438,13 +412,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="15" selection-start-column="15" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="10" lean-forward="true" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -584,13 +551,6 @@
     <entry file="file://$PROJECT_DIR$/app.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/local.config.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/createTable.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -675,10 +635,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/templates/home.html">
+    <entry file="file://$PROJECT_DIR$/node_modules/cloudinary/test_lib/cloudinary_spec.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="64" selection-start-line="13" selection-start-column="64" selection-end-line="13" selection-end-column="64" />
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="10" lean-forward="true" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local.config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
@@ -689,24 +663,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server.js">
+    <entry file="file://$PROJECT_DIR$/static/templates/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="106" column="9" lean-forward="true" selection-start-line="106" selection-start-column="9" selection-end-line="106" selection-end-column="9" />
+        <state relative-caret-position="119">
+          <caret line="7" column="50" lean-forward="true" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/handlers/albums.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="60" column="12" lean-forward="true" selection-start-line="60" selection-start-column="12" selection-end-line="60" selection-end-column="89" />
+        <state relative-caret-position="663">
+          <caret line="58" column="18" selection-start-line="58" selection-start-column="18" selection-end-line="58" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data/album.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="678">
-          <caret line="158" column="56" lean-forward="true" selection-start-line="158" selection-start-column="56" selection-end-line="158" selection-end-column="56" />
+        <state relative-caret-position="493">
+          <caret line="65" column="27" selection-start-line="65" selection-start-column="27" selection-end-line="65" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="129" column="21" selection-start-line="129" selection-start-column="21" selection-end-line="129" selection-end-column="21" />
         </state>
       </provider>
     </entry>
